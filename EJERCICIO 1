@@ -1,0 +1,7 @@
+//programa que calcula el nombre de una persona y la saluda
+PROCESO SALUDO
+  ESCRIBIR "PROGRAMA QUE VA A SALUDAR"
+  ESCRIBIR "dijite su nombre"
+  LEER NOMBRE
+  ESCRIBIR "Hola mi querido ", NOMBRE, " Bienvenido al curso 10-5 de programacion"
+FINPROCESO
