@@ -1,0 +1,14 @@
+// PROGRAMA PARA CALCULAR EL PERIMETRO Y AREA DE UN RECTANGULO DADA SU BASE Y ALTURA Escribir FinProceso
+Proceso AREAYPERIMETRO 
+	Escribir "PROGRAMA QUE CALCULA EL PERIMETRO Y AREA DE UN RECTANGULO"
+	Escribir "."
+	Escribir "."
+	Escribir "Ingrese la base"
+	Leer base
+	Escribir "ingrese la altura"
+	leer altura
+	Escribir "."
+	perimetro = 2 * (base + altura)
+	area = base * altura
+	Escribir "el rectangulo de la base " , base , " y altura " , " tiene un perimetro de " , perimetro , " y area de " , area
+FinProceso
