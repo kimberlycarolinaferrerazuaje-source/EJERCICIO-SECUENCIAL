@@ -1,0 +1,23 @@
+Algoritmo DescuentoTienda
+	
+	Definir total_compra, descuento, total_pagar Como Real
+	
+	// Pedir el total de la compra
+	Escribir "."
+	Escribir "Ingrese el total de la compra:"
+	Leer total_compra
+	
+	// Calcular descuento (15%)
+	descuento <- total_compra * 0.15
+	
+	// Calcular total a pagar
+	total_pagar <- total_compra - descuento
+	
+	// Mostrar resultados
+	Escribir "."
+	Escribir "Total de la compra: ", total_compra
+	Escribir "Descuento (15%): ", descuento
+	Escribir "Total a pagar: ", total_pagar
+	Escribir "."
+
+FinAlgoritmo
