@@ -1,0 +1,36 @@
+Algoritmo SueldoTrabajador
+	
+	Definir nombre Como Caracter
+	Definir edad, anios_trabajados Como Entero
+	Definir sueldo, aumento, sueldo_final Como Real
+	
+	sueldo <- 1000
+	
+	// Pedir datos
+	Escribir "."
+	Escribir "Ingrese el nombre del trabajador:"
+	Leer nombre
+	
+	Escribir "Ingrese la edad:"
+	Leer edad
+	
+	Escribir "Ingrese los años trabajados en la empresa:"
+	Leer anios_trabajados
+	
+	// Calcular aumento acumulado (5% anual)
+	sueldo_final <- sueldo
+	
+	Para i <- 1 Hasta anios_trabajados Con Paso 1 Hacer
+		sueldo_final <- sueldo_final + (sueldo_final * 0.05)
+	FinPara
+	
+	// Mostrar resultados
+	Escribir "."
+	Escribir "Nombre: ", nombre
+	Escribir "Edad: ", edad
+	Escribir "Años trabajados: ", anios_trabajados
+	Escribir "Sueldo inicial: ", sueldo
+	Escribir "Sueldo final con aumento: ", sueldo_final
+	Escribir "."
+
+FinAlgoritmo
