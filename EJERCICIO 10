@@ -1,0 +1,36 @@
+Algoritmo CalificacionFinal
+	
+	Definir nota1, nota2, nota3, promedio, examen_final, trabajo_final, calificacion_final Como Real
+	
+	// Pedir notas parciales
+	Escribir "."
+	Escribir "Ingrese la primera nota parcial:"
+	Leer nota1
+	
+	Escribir "Ingrese la segunda nota parcial:"
+	Leer nota2
+	
+	Escribir "Ingrese la tercera nota parcial:"
+	Leer nota3
+	
+	// Calcular promedio de parciales
+	promedio <- (nota1 + nota2 + nota3) / 3
+	
+	// Pedir examen final y trabajo
+	Escribir "."
+	Escribir "Ingrese la nota del examen final:"
+	Leer examen_final
+	
+	Escribir "Ingrese la nota del trabajo final:"
+	Leer trabajo_final
+	
+	// Calcular calificación final
+	calificacion_final <- (promedio * 0.55) + (examen_final * 0.30) + (trabajo_final * 0.15)
+	
+	// Mostrar resultado
+	Escribir "."
+	Escribir "Promedio de parciales: ", promedio
+	Escribir "Calificación final: ", calificacion_final
+	Escribir "."
+
+FinAlgoritmo
