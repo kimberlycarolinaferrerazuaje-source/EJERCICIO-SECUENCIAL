@@ -1,0 +1,17 @@
+Algoritmo Tiempo_Alcance
+	Definir d, v1, v2, tiempoHoras, tiempoMinutos Como Real
+	Escribir "Distancia entre vehículos en km: "
+	Leer d
+	Escribir "Velocidad del vehículo de atrás en km/h: "
+	Leer v1
+	Escribir "Velocidad del vehículo de adelante en km/h: "
+	Leer v2
+	
+	Si v1 > v2 Entonces
+		tiempoHoras <- d / (v1 - v2)
+		tiempoMinutos <- tiempoHoras * 60
+		Escribir "Lo alcanza en ", tiempoMinutos, " minutos"
+	Sino
+		Escribir "El vehículo de atrás debe ser más rápido"
+	FinSi
+FinAlgoritmo
