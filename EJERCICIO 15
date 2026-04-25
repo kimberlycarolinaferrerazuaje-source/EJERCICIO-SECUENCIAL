@@ -1,0 +1,16 @@
+Algoritmo Intercambiar_Variables
+	Definir A, B, temp Como Real
+	Escribir "Ingresa el valor de A: "
+	Leer A
+	Escribir "Ingresa el valor de B: "
+	Leer B
+	
+	Escribir "Antes: A=", A, " B=", B
+	
+	// Intercambio usando variable temporal
+	temp <- A
+	A <- B
+	B <- temp
+	
+	Escribir "Después: A=", A, " B=", B
+FinAlgoritmo
