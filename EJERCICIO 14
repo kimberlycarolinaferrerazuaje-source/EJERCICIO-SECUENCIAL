@@ -1,0 +1,23 @@
+Algoritmo Invertir_Numero_Dos_Digitos
+	Definir num, decenas, unidades, invertido Como Entero
+	
+	Escribir "Ingresa un número de 2 dígitos: "
+	Leer num
+	
+	// Validar que sí sea de 2 dígitos
+	Si num >= 10 Y num <= 99 Entonces
+		// Sacar las decenas: división entera entre 10
+		decenas <- trunc(num / 10)
+		
+		// Sacar las unidades: el residuo de dividir entre 10
+		unidades <- num MOD 10
+		
+		// Armar el número invertido: unidades*10 + decenas
+		invertido <- unidades * 10 + decenas
+		
+		Escribir "El número original es: ", num
+		Escribir "El número invertido es: ", invertido
+	Sino
+		Escribir "Error: Debes ingresar un número de 2 dígitos, entre 10 y 99."
+	FinSi
+FinAlgoritmo
