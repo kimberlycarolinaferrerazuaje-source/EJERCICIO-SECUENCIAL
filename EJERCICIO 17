@@ -1,0 +1,21 @@
+Algoritmo Hora_Llegada
+	Definir HH, MM, SS, T, totalSegundos, segLlegada, minLlegada, horaLlegada Como Entero
+	Escribir "Hora de salida HH: "
+	Leer HH
+	Escribir "Minutos de salida MM: "
+	Leer MM
+	Escribir "Segundos de salida SS: "
+	Leer SS
+	Escribir "Tiempo de viaje en segundos T: "
+	Leer T
+	
+	// Convertir todo a segundos y sumar
+	totalSegundos <- HH*3600 + MM*60 + SS + T
+	
+	// Convertir de vuelta a HH:MM:SS
+	horaLlegada <- trunc(totalSegundos / 3600) MOD 24
+	minLlegada <- trunc((totalSegundos MOD 3600) / 60)
+	segLlegada <- totalSegundos MOD 60
+	
+	Escribir "Hora de llegada: ", horaLlegada, ":", minLlegada, ":", segLlegada
+FinAlgoritmo
