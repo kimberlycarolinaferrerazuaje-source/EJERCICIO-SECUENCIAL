@@ -1,0 +1,11 @@
+Algoritmo nombreyapellidos
+	Definir nombre, apellido1, apellido2 Como Caracter
+	Escribir "Ingresa el nombre: "
+	Leer nombre
+	Escribir "Ingresa el primer apellido: "
+	Leer apellido1
+	Escribir "Ingresa el segundo apellido: "
+	Leer apellido2
+	
+	Escribir "Las iniciales son: ", Mayusculas(nombre[1]), Mayusculas(apellido1[1]), Mayusculas(apellido2[1])
+FinAlgoritmo
