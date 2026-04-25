@@ -1,0 +1,20 @@
+Algoritmo Distancia_Entre_Dos_Puntos
+	// Declarar variables
+	Definir x1, y1, x2, y2, distancia Como Real
+	
+	// Pedir datos al usuario
+	Escribir "Ingresa x1: "
+	Leer x1
+	Escribir "Ingresa y1: "
+	Leer y1
+	Escribir "Ingresa x2: "
+	Leer x2
+	Escribir "Ingresa y2: "
+	Leer y2
+	
+	// Calcular distancia usando la fórmula: d = √[(x2-x1)² + (y2-y1)²]
+	distancia <- raiz((x2 - x1)^2 + (y2 - y1)^2)
+	
+	// Mostrar resultado
+	Escribir "La distancia entre los puntos (", x1, ",", y1, ") y (", x2, ",", y2, ") es: ", distancia
+FinAlgoritmo
