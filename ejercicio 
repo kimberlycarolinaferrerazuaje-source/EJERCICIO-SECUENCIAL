@@ -1,0 +1,19 @@
+Algoritmo InicialesSimples
+    // 1. Pedimos los datos
+    Escribir "Escribe tu nombre:"
+    Leer nombre
+    
+    Escribir "Escribe tu primer apellido:"
+    Leer apellido1
+    
+    Escribir "Escribe tu segundo apellido:"
+    Leer apellido2
+    
+    // 2. Sacamos la primera letra de cada uno
+    letra1 = Subcadena(nombre, 1, 1)
+    letra2 = Subcadena(apellido1, 1, 1)
+    letra3 = Subcadena(apellido2, 1, 1)
+    
+    // 3. Mostramos el resultado final
+    Escribir "Tus iniciales son: ", letra1, letra2, letra3
+FinAlgoritmo
