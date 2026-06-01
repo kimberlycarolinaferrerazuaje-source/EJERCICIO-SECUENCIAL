@@ -1,0 +1,26 @@
+Algoritmo ejercicio
+	//este programa va a calcular si el numero es primo o no.
+	bandera = 0
+	Escribir "bienvenido"
+	Escribir "dijite un numero entero"
+	leer nume
+	
+	n = nume -1
+	Mientras n <> 2 Hacer
+		
+		n = n - 1 
+		r = nume / n
+		
+		si r = trunc(r) Entonces
+			bandera = 1
+		FinSi
+		
+	FinMientras
+	
+	si bandera = 1 Entonces
+		Escribir "numero no primo"
+	SiNo
+		Escribir "numero primo"
+	FinSi
+	
+FinAlgoritmo
